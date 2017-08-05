@@ -26,6 +26,14 @@ import UIKit
             self.iconLayer.numberOfColumns = newValue
         }
     }
+    @IBInspectable open var shapeSize: CGFloat {
+        get {
+            return self.iconLayer.shapeSize
+        }
+        set {
+            self.iconLayer.shapeSize = newValue
+        }
+    }
     
     open var shape: Shape {
         get {
@@ -33,14 +41,6 @@ import UIKit
         }
         set {
             self.iconLayer.shape = newValue
-        }
-    }
-    open var shapeSize: CGFloat {
-        get {
-            return self.iconLayer.shapeSize
-        }
-        set {
-            self.iconLayer.shapeSize = newValue
         }
     }
     

@@ -21,19 +21,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cDy-MU-wCF" customClass="SearchIconView" customModule="Draw" customModuleProvider="target">
-                                <rect key="frame" x="146" y="232" width="47" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDy-MU-wCF" customClass="SearchIconView" customModule="Draw" customModuleProvider="target">
+                                <rect key="frame" x="82" y="98" width="30" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="colour">
-                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-                                        <real key="value" value="5"/>
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7X-nI-6Oh" customClass="HamburgerIconView" customModule="Draw" customModuleProvider="target">
+                                <rect key="frame" x="217" y="98" width="35" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="colour">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="7"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="numberOfLines">
-                                        <integer key="value" value="5"/>
+                                        <integer key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="numberOfRows">
                                         <integer key="value" value="3"/>
@@ -43,8 +54,104 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NEe-s7-3jW" customClass="GridIconView" customModule="Draw" customModuleProvider="target">
+                                <rect key="frame" x="127" y="98" width="30" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="colour">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfLines">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfRows">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfColumns">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shapeSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTj-5E-iZ5" customClass="GridIconView" customModule="Draw" customModuleProvider="target">
+                                <rect key="frame" x="172" y="98" width="30" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="gUf-N4-gyY"/>
+                                    <constraint firstAttribute="height" constant="30" id="yA5-Ok-bI7"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="colour">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfLines">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfRows">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfColumns">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shapeSize">
+                                        <real key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1PZ-ZH-VRp" customClass="GridIconView" customModule="Draw" customModuleProvider="target">
+                                <rect key="frame" x="267" y="98" width="30" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="colour">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfLines">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfRows">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfColumns">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shapeSize">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u7X-nI-6Oh" firstAttribute="centerY" secondItem="bTj-5E-iZ5" secondAttribute="centerY" id="5Gr-6A-ikU"/>
+                            <constraint firstItem="NEe-s7-3jW" firstAttribute="height" secondItem="bTj-5E-iZ5" secondAttribute="height" id="9EB-Ct-Zcq"/>
+                            <constraint firstItem="NEe-s7-3jW" firstAttribute="leading" secondItem="cDy-MU-wCF" secondAttribute="trailing" constant="15" id="9pL-qm-Eyi"/>
+                            <constraint firstItem="NEe-s7-3jW" firstAttribute="width" secondItem="bTj-5E-iZ5" secondAttribute="width" id="AeP-a7-4DB"/>
+                            <constraint firstItem="cDy-MU-wCF" firstAttribute="width" secondItem="NEe-s7-3jW" secondAttribute="width" id="B2m-Cn-r6a"/>
+                            <constraint firstItem="NEe-s7-3jW" firstAttribute="centerY" secondItem="bTj-5E-iZ5" secondAttribute="centerY" id="FrB-0Y-0K9"/>
+                            <constraint firstItem="u7X-nI-6Oh" firstAttribute="leading" secondItem="bTj-5E-iZ5" secondAttribute="trailing" constant="15" id="HVp-0f-uiE"/>
+                            <constraint firstItem="1PZ-ZH-VRp" firstAttribute="leading" secondItem="u7X-nI-6Oh" secondAttribute="trailing" constant="15" id="Hxb-AU-68S"/>
+                            <constraint firstItem="1PZ-ZH-VRp" firstAttribute="height" secondItem="u7X-nI-6Oh" secondAttribute="height" id="Ib3-nh-OKK"/>
+                            <constraint firstItem="u7X-nI-6Oh" firstAttribute="height" secondItem="bTj-5E-iZ5" secondAttribute="height" id="RFl-Fj-DPc"/>
+                            <constraint firstItem="bTj-5E-iZ5" firstAttribute="leading" secondItem="NEe-s7-3jW" secondAttribute="trailing" constant="15" id="Vlg-pp-wqY"/>
+                            <constraint firstItem="cDy-MU-wCF" firstAttribute="height" secondItem="NEe-s7-3jW" secondAttribute="height" id="aub-U0-5pA"/>
+                            <constraint firstItem="u7X-nI-6Oh" firstAttribute="width" secondItem="bTj-5E-iZ5" secondAttribute="width" constant="5" id="c7W-oD-Fku"/>
+                            <constraint firstItem="1PZ-ZH-VRp" firstAttribute="centerY" secondItem="u7X-nI-6Oh" secondAttribute="centerY" id="frY-Ti-gbY"/>
+                            <constraint firstItem="bTj-5E-iZ5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="78" id="hRx-5s-fc2"/>
+                            <constraint firstItem="bTj-5E-iZ5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jZB-cI-NN7"/>
+                            <constraint firstItem="cDy-MU-wCF" firstAttribute="centerY" secondItem="NEe-s7-3jW" secondAttribute="centerY" id="nsM-8a-Vbu"/>
+                            <constraint firstItem="1PZ-ZH-VRp" firstAttribute="width" secondItem="bTj-5E-iZ5" secondAttribute="width" id="vuv-Ms-gri"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
